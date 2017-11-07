@@ -16,7 +16,7 @@ SheepyConstructor.prototype.start = function(writeStream, configuration) {
     this.encoder.start();
     this.encoder.setTransparent("#000000");
     this.encoder.setRepeat(0);
-    this.encoder.setDelay(configuration.delay || 40);
+    this.encoder.setDelay(configuration.delay || 70);
 }
 
 SheepyConstructor.prototype.setBaseSheepy = function(sheepyType) {
